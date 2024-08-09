@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 273 65% 100%;
+    --foreground: 273 53% 0%;
+    --muted: 243 32% 85%;
+    --muted-foreground: 243 14% 25%;
+    --popover: 273 65% 100%;
+    --popover-foreground: 273 53% 0%;
+    --card: 0 0% 99%;
+    --card-foreground: 0 0% 0%;
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --primary: 273 88% 39%;
+    --primary-foreground: 273 88% 99%;
+    --secondary: 243 88% 39%;
+    --secondary-foreground: 243 88% 99%;
+    --accent: 303 88% 39%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 11 97% 25%;
+    --destructive-foreground: 11 97% 85%;
+    --ring: 273 88% 39%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 273 31% 0%;
+    --foreground: 273 13% 100%;
+    --muted: 243 32% 15%;
+    --muted-foreground: 243 14% 75%;
+    --popover: 273 31% 0%;
+    --popover-foreground: 273 13% 100%;
+    --card: 0 0% 1%;
+    --card-foreground: 0 0% 100%;
+    --border: 215 27.9% 16.9%;
+    --input: 215 27.9% 16.9%;
+    --primary: 273 88% 39%;
+    --primary-foreground: 273 88% 99%;
+    --secondary: 243 88% 39%;
+    --secondary-foreground: 243 88% 99%;
+    --accent: 303 88% 39%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 11 97% 55%;
+    --destructive-foreground: 0 0% 100%;
+    --ring: 273 88% 39%;
+  }
+}
+
+
+
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.hide-accordion-icon .lucide-chevron-down {
+  display: none;
+}
+
+.mr-200 {
+  margin-right: 200px;
+}
+
+.ml-11 {
+  margin-left: 11.75rem;
+  margin-top: 20px;
+}
+
+
+.countdown-timer {
+  display: flex;
+  gap: 1rem;
+}
+
+.time-segment {
+  text-align: center;
+}
+
+.value {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.label {
+  font-size: 1rem;
+  color: #666;
+}
+
+
+.fcolr {
+  color: #5F259E;
+}
+
+.bg-pink {
+  position: relative;
+  bottom: 1062px;
+  left: 194px;
+}

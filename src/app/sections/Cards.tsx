@@ -24,7 +24,7 @@ export const Cards = () => {
                     <div>
                         <h2 className="text-xl font-semibold mb-2">When</h2>
                         <p>November  21-24, 2024</p>
-                        kk
+                        
                     </div>
                 </div>
 

@@ -1,7 +1,7 @@
-import type { Config } from "tailwindcss";
-import tailwindcssAnimate from "tailwindcss-animate";
+import type { Config } from 'tailwindcss';
+import tailwindcssAnimate from 'tailwindcss-animate';
 
-const config = {
+const config: Config = {
   darkMode: ["class"],
   content: [
     "./pages/**/*.{ts,tsx}",
@@ -9,7 +9,6 @@ const config = {
     "./app/**/*.{ts,tsx}",
     "./src/**/*.{ts,tsx}",
   ],
-  prefix: "",
   theme: {
     container: {
       center: true,
@@ -71,14 +70,37 @@ const config = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
+        marquee: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
+        "skew-x-shake": {
+          '0%': { transform: 'skewX(-15deg)' },
+          '5%': { transform: 'skewX(15deg)' },
+          '10%': { transform: 'skewX(-15deg)' },
+          '15%': { transform: 'skewX(15deg)' },
+          '20%': { transform: 'skewX(0deg)' },
+          '100%': { transform: 'skewX(0deg)' },
+        },
+        "skew-y-shake": {
+          '0%': { transform: 'skewY(-15deg)' },
+          '5%': { transform: 'skewY(15deg)' },
+          '10%': { transform: 'skewY(-15deg)' },
+          '15%': { transform: 'skewY(15deg)' },
+          '20%': { transform: 'skewY(0deg)' },
+          '100%': { transform: 'skewY(0deg)' },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        marquee: 'marquee 20s linear infinite',
+        "skew-x-shake": "skew-x-shake 2s ease-in-out infinite",
+        "skew-y-shake": "skew-y-shake 2s ease-in-out infinite",
       },
     },
   },
   plugins: [tailwindcssAnimate],
-} satisfies Config;
+};
 
 export default config;

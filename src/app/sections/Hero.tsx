@@ -6,7 +6,7 @@ export const Hero = () => {
 
   return (
     <section className="relative w-full h-[1312px] ">
-      <img  src="/assets/Heroimg.png" alt="emty" />
+      <img className='w-10000' src="/assets/Heroimg.png" alt="emty" />
       <img className='bg-pink' src="/assets/Heroimgtext.png" alt="emty" />
       <Header />
       <div className="absolute bottom-20 left-0 w-full text-white p-4 flex flex-col justify-center items-center gap-10">

@@ -11,6 +11,7 @@ import CardMedia from "./sections/Card";
 import CardSlider from "@/components/ui/Card Slider Component";
 import Activities from "./sections/Activities";
 import JoinWAVES from "./sections/JoinWAVES";
+import NewsUpdate from "./sections/News&Updates";
 // import CardSlider from "@/components/ui/Card Slider Component";
 
 
@@ -26,8 +27,10 @@ export default function page() {
       <HorizontalScroll/>
       <Activities/>
       <JoinWAVES/>
+      <NewsUpdate/>
       <CardSlider />
       <CardMedia/>
+      
       
       <h2 className="text-3xl font-bold tracking-tight">Dashboard</h2>
       <Button className="ml-3 mt-3">Hello</Button>

@@ -1,6 +1,6 @@
 import * as React from "react"
 
-import { Card, CardContent } from "@/components/ui/card"
+import { Card, CardContent } from "@/components/ui/Card"
 import {
   Carousel,
   CarouselContent,
@@ -15,7 +15,7 @@ export function CarouselSize() {
       opts={{
         align: "start",
       }}
-      className="w-full max-w-sm"
+      className="w-6 "
     >
       <CarouselContent>
         {Array.from({ length: 5 }).map((_, index) => (

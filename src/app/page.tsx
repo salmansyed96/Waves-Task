@@ -10,6 +10,7 @@ import HorizontalScroll from "./sections/HorizontalScroll";
 import CardMedia from "./sections/Card";
 import CardSlider from "@/components/ui/Card Slider Component";
 import Activities from "./sections/Activities";
+import JoinWAVES from "./sections/JoinWAVES";
 // import CardSlider from "@/components/ui/Card Slider Component";
 
 
@@ -24,6 +25,7 @@ export default function page() {
       {/* <CarouselSize/> */}
       <HorizontalScroll/>
       <Activities/>
+      <JoinWAVES/>
       <CardSlider />
       <CardMedia/>
       

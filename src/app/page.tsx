@@ -20,7 +20,7 @@ export default function page() {
       <About/>
       <Verticals/>
       <Cards/>
-      <CarouselSize/>
+      {/* <CarouselSize/> */}
       <HorizontalScroll/>
       <CardSlider />
       <CardMedia/>

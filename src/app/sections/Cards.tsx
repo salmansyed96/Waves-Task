@@ -3,7 +3,7 @@ export const Cards = () => {
         <section className="flex mt-[7%] items-center justify-center space-x-6">
             <div className="">
                 <div
-                    className="  w-[400px] bg-white border border-[#edecec] rounded-lg shadow-lg p-4 flex flex-col items-center justify-center text-[#3F4654]"
+                    className="  w-[400px] bg-white border border-[#edecec] rounded-3xl shadow-lg p-4 flex flex-col items-center justify-center text-[#3F4654]"
                     style={{ borderWidth: '0.5px' }} >
                     <div className="flex">
                         <img   src="/assets/loca.png" alt="empty" className="mr-6 relative right-[50px]" />
@@ -16,7 +16,7 @@ export const Cards = () => {
             </div>
 
             <div
-                className="w-[400px] h-[130px] bg-white border border-[#edecec] rounded-lg shadow-lg p-4 flex flex-col items-center justify-center text-[#3F4654]"
+                className="w-[400px] h-[130px] bg-white border border-[#edecec] rounded-3xl shadow-lg p-4 flex flex-col items-center justify-center text-[#3F4654]"
                 style={{ borderWidth: '0.5px' }}>
 
                 <div className="flex mt-5">

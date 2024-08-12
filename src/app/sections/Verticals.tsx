@@ -11,7 +11,7 @@ export const Verticals = () => {
         </div>
         <div className=" relative -right-[1px] -top-[3px]">
         <div
-        className="w-64 h-48 border rounded-xl p-4 flex flex-col items-center justify-center text-[#3F4654]"
+        className="ml-10 w-64 h-48 border rounded-3xl p-4 flex flex-col items-center justify-center text-[#3F4654]"
         style={{ borderWidth: '0.5px', borderColor: '#5F259E' }}
       >
         <h2 className="text-xl font-semibold mb-2"><img src="/assets/Icon-youtub.png" alt="empty" className="mb-4" /></h2>
@@ -20,7 +20,7 @@ export const Verticals = () => {
         </div>
       <div className="relative -right-[35px] -top-[120px]">
       <div
-        className="w-64 h-48 border rounded-lg p-4 flex flex-col items-center justify-center text-[#3F4654]"
+        className="w-64 h-48 border rounded-3xl p-4 flex flex-col items-center justify-center text-[#3F4654]"
         style={{ borderWidth: '0.5px', borderColor: '#5F259E' }}
       >
         <h2 className="text-xl font-semibold mb-2"><img src="/assets/Radio.png" alt="empty" className="mb-4" /></h2>
@@ -29,7 +29,7 @@ export const Verticals = () => {
       </div>
       <div className="relative -right-[-220px] -top-[-100px]">
       <div
-        className="w-64 h-48 border rounded-lg p-4 flex flex-col items-center justify-center text-[#3F4654]"
+        className="w-64 h-48 border rounded-3xl p-4 flex flex-col items-center justify-center text-[#3F4654]"
         style={{ borderWidth: '0.5px', borderColor: '#5F259E' }}
       >
         <h2 className="text-xl font-semibold mb-2"><img src="/assets/Monitor.png" alt="empty" className="mb-4" /></h2>

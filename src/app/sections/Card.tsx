@@ -30,14 +30,53 @@ const { Meta } = Card;
 const CardMedia: React.FC = () => (
   <>
   <div className='flex gap-3'>
-  <Card
-    hoverable
-    style={{ width: 200 }}
-    cover={<img alt="example" src="/assets/silde1.png" className="mr-6" />}
-  >
-    <Meta title="Europe Street beat" description="www.instagram.com" />
-  </Card>
+  {/* <Card
+  hoverable
+  style={{ width: '336px', height: '417px' }}
+  cover={<img alt="example" src="/assets/silde1.png" className="mr-6" />}
+  
+>
+<Meta title="Europe Street beat" description="www.instagram.com" />
+  
+</Card> */}
 
+<Card
+hoverable
+style={{ width: 240 }}
+cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}
+>
+<Meta title="Conference Track" description="Dive deep into the Conference Track, featuring
+sessions with global thought...." />
+</Card>
+<Card
+hoverable
+style={{ width: 240 }}
+cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}
+>
+<Meta title="Media Marketplace" description="Explore the vibrant Media Marketplace, a
+dedicated platform showcasing India's M&E " />
+</Card>
+<Card
+hoverable
+style={{ width: 240 }}
+cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}
+>
+<Meta title="Exhibition" description="Immerse yourself in the dynamic Exhibition:" />
+</Card>
+<Card
+hoverable
+style={{ width: 240 }}
+cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}
+>
+<Meta title="Cultural Evenings" description=" Immerse yourself in the rich tapestry" />
+</Card>
+<Card
+hoverable
+style={{ width: 240 }}
+cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}
+>
+<Meta title="Europe Street beat" description="www.instagram.com" />
+</Card>
 <Card
 hoverable
 style={{ width: 240 }}

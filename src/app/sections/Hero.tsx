@@ -5,7 +5,7 @@ import { Header } from './Header';
 export const Hero = () => {
 
   return (
-    <section className="relative w-full h-[1312px] bg-green-500">
+    <section className="relative w-full h-[1312px] ">
       <img  src="/assets/Heroimg.png" alt="emty" />
       <img className='bg-pink' src="/assets/Heroimgtext.png" alt="emty" />
       <Header />

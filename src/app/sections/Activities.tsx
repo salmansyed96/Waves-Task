@@ -19,6 +19,7 @@ const Activities: React.FC<CardProps> = ({ image, title, description }) => {
       <p className="text-[#3F4654] text-lg mt-5">WAVES isn't just a conference, it's a portal to the future of M&E. Here, industry leaders, creative minds, and tech visionaries <br/>converge to explore cutting-edge trends, forge powerful connections, and celebrate the magic of storytelling. Get ready to be a part of:</p>
 
     </div>
+    
     <Card/>
     </div>
 

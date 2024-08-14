@@ -60,6 +60,8 @@ const config: Config = {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+        'left-190': '190px 0 0 190px', // Custom class for left-side border-radius
+        'top-right-120': '0 120px 0 0', // Custom class for top-right border-radius
       },
       keyframes: {
         "accordion-down": {

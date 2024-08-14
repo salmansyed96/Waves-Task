@@ -8,14 +8,70 @@ interface CardProps {
 
 const Card: React.FC<CardProps> = ({ imageSrc, title, description }) => {
   return (
-    <div className="bg-white border border-gray-200 rounded-lg shadow-md p-4 flex flex-col items-center">
-      <img src={imageSrc} alt={title} className="w-full h-40 object-cover rounded-t-lg" />
-      <h3 className="text-lg font-semibold mt-4">{title}</h3>
-      <p className="text-gray-600 mt-2">{description}</p>
-      <button className="mt-4 text-blue-500 hover:text-blue-700 focus:outline-none">
-        &larr; Left
-      </button>
-    </div>
+    <>
+
+<div className="w-[1470px] relative right-[152px] overflow-auto bg-black p-5">
+        <div className="w-[3100px] flex ">
+          <div className="w-[300px] h-[350px] p-5 mr-5 bg-white rounded shadow">
+            <img src='./assets/silde1.png' className="self-center"  alt="envelope image" />
+            <div className="text-center mt-5">Title</div>
+            <div className="text-center mt-1 text-sm text-zinc-500">description thank you very much</div>
+          </div>
+          <div className="w-[300px] h-[350px] p-5 mr-5 bg-white rounded shadow">
+            <img src={'/assets/images/envelope.svg'} className="self-center" width={250} height={250} alt="envelope image" />
+            <div className="text-center mt-5">Title</div>
+            <div className="text-center mt-1 text-sm text-zinc-500">description thank you very much</div>
+          </div>
+          <div className="w-[300px] h-[350px] p-5 mr-5 bg-white rounded shadow">
+            <img src={'/assets/images/envelope.svg'} className="self-center" width={250} height={250} alt="envelope image" />
+            <div className="text-center mt-5">Title</div>
+            <div className="text-center mt-1 text-sm text-zinc-500">description thank you very much</div>
+          </div>
+          <div className="w-[300px] h-[350px] p-5 mr-5 bg-white rounded shadow">
+            <img src={'/assets/images/envelope.svg'} className="self-center" width={250} height={250} alt="envelope image" />
+            <div className="text-center mt-5">Title</div>
+            <div className="text-center mt-1 text-sm text-zinc-500">description thank you very much</div>
+          </div>
+          <div className="w-[300px] h-[350px] p-5 mr-5 bg-white rounded shadow">
+            <img src={'/assets/images/envelope.svg'} className="self-center" width={250} height={250} alt="envelope image" />
+            <div className="text-center mt-5">Title</div>
+            <div className="text-center mt-1 text-sm text-zinc-500">description thank you very much</div>
+          </div>
+          <div className="w-[300px] h-[350px] p-5 mr-5 bg-white rounded shadow">
+            <img src={'/assets/images/envelope.svg'} className="self-center" width={250} height={250} alt="envelope image" />
+            <div className="text-center mt-5">Title</div>
+            <div className="text-center mt-1 text-sm text-zinc-500">description thank you very much</div>
+          </div>
+          <div className="w-[300px] h-[350px] p-5 mr-5 bg-white rounded shadow">
+            <img src={'/assets/images/envelope.svg'} className="self-center" width={250} height={250} alt="envelope image" />
+            <div className="text-center mt-5">Title</div>
+            <div className="text-center mt-1 text-sm text-zinc-500">description thank you very much</div>
+          </div>
+          <div className="w-[300px] h-[350px] p-5 mr-5 bg-white rounded shadow">
+            <img src={'/assets/images/envelope.svg'} className="self-center" width={250} height={250} alt="envelope image" />
+            <div className="text-center mt-5">Title</div>
+            <div className="text-center mt-1 text-sm text-zinc-500">description thank you very much</div>
+          </div>
+          <div className="w-[300px] h-[350px] p-5 mr-5 bg-white rounded shadow">
+            <img src={'/assets/images/envelope.svg'} className="self-center" width={250} height={250} alt="envelope image" />
+            <div className="text-center mt-5">Title</div>
+            <div className="text-center mt-1 text-sm text-zinc-500">description thank you very much</div>
+          </div>
+          <div className="w-[300px] h-[350px] p-5 mr-5 bg-white rounded shadow">
+            <img src={'/assets/images/envelope.svg'} className="self-center" width={250} height={250} alt="envelope image" />
+            <div className="text-center mt-5">Title</div>
+            <div className="text-center mt-1 text-sm text-zinc-500">description thank you very much</div>
+          </div>
+        </div>
+      </div>
+
+
+    </>
+      
+          
+            
+
+    
   );
 };
 

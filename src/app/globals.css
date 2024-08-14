@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Futura-Bold';
+  src: url('/fonts/Futura-Bold.woff2') format('woff2'),
+       url('/fonts/Futura-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
 @layer base {
   :root {
     --background: 273 65% 100%;

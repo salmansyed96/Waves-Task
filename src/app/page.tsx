@@ -12,6 +12,8 @@ import CardSlider from "@/components/ui/Card Slider Component";
 import Activities from "./sections/Activities";
 import JoinWAVES from "./sections/JoinWAVES";
 import NewsUpdate from "./sections/News&Updates";
+import { Accordion } from "@radix-ui/react-accordion";
+import StaticAccordion, { AccordionDemo } from "./sections/accordion";
 // import CardSlider from "@/components/ui/Card Slider Component";
 
 
@@ -28,8 +30,10 @@ export default function page() {
       <Activities/>
       <JoinWAVES/>
       <NewsUpdate/>
+      <AccordionDemo/>
       <CardSlider />
       <CardMedia/>
+
       
       
       <h2 className="text-3xl font-bold tracking-tight">Dashboard</h2>

@@ -20,7 +20,7 @@ const Activities: React.FC<CardProps> = ({ image, title, description }) => {
 
     </div>
     
-    <Card/>
+    {/* <Card/> */}
     </div>
 
     

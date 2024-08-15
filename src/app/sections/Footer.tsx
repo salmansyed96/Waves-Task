@@ -1,9 +1,10 @@
 import React from 'react';
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaGithub, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-gradient-to-r from-[#5f249e] to-[#a800c4] text-white py-8">
+    <footer className="relative bg-gradient-to-r from-[#5f249e] to-[#390942] text-white py-8">
+      <div className="absolute bottom-0 right-0 w-[300px] h-[300px] bg-cover bg-no-repeat bg-center" style={{ backgroundImage: 'url(/assets/footerimg.png)' }}></div>
       <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-start space-y-8 md:space-y-0">
         {/* First Section: Logo and Social Media Icons */}
         <div className="flex flex-col items-start">
@@ -43,10 +44,19 @@ const Footer: React.FC = () => {
 
         {/* Third Section: Address */}
         <div className="flex flex-col space-y-2">
-          <h2 className="text-lg font-bold">Address</h2>
-          <p>1234 Street Name,</p>
-          <p>City, State, 12345</p>
-          <p>Country</p>
+          <h2 className="text-lg font-bold">Head Office Mumbai</h2>
+          <div className="flex items-start space-x-2 leading-relaxed">
+            <FaMapMarkerAlt className="text-white font-medium" size={20} />
+            <p>NFDC - FD Complex,<br /> 24, Dr. Gopalrao Deshmukh Marg,<br /> Mumbai 400 026, Maharashtra</p>
+          </div>
+          <div className="flex items-center space-x-2 leading-relaxed">
+            <FaPhoneAlt className="text-white font-medium" size={20} />
+            <p>+91 22 35248444</p>
+          </div>
+          <div className="flex items-center space-x-2 leading-relaxed">
+            <FaEnvelope className="text-white font-medium" size={20} />
+            <p>nfdc@nfdcindia.com</p>
+          </div>
         </div>
       </div>
     </footer>

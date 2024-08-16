@@ -15,6 +15,9 @@ import NewsUpdate from "./sections/News&Updates";
 import { Accordion } from "@radix-ui/react-accordion";
 import StaticAccordion, { AccordionDemo } from "./sections/accordion";
 import Footer from "./sections/Footer";
+import Gallery from "./sections/Gallery";
+import Media from "./sections/media";
+import ContactForm from "./sections/Contact";
 // import CardSlider from "@/components/ui/Card Slider Component";
 
 
@@ -32,6 +35,9 @@ export default function page() {
       <JoinWAVES/>
       <NewsUpdate/>
       <AccordionDemo/>
+      <Gallery/>
+      <Media/>
+      <ContactForm/>
       
 
       

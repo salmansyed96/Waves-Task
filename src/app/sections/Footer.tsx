@@ -4,7 +4,7 @@ import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaGithub, FaMapMarkerAl
 const Footer: React.FC = () => {
   return (
     <footer className="relative bg-gradient-to-r from-[#5f249e] to-[#390942] text-white py-8">
-      <div className="absolute bottom-0 right-0 w-[300px] h-[300px] bg-cover bg-no-repeat bg-center" style={{ backgroundImage: 'url(/assets/footerimg.png)' }}></div>
+      <div className="bg-[url('/assets/footerimg.png')] bg-auto bg-no-repeat bg-right" >
       <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-start space-y-8 md:space-y-0">
         {/* First Section: Logo and Social Media Icons */}
         <div className="flex flex-col items-start">
@@ -59,7 +59,9 @@ const Footer: React.FC = () => {
           </div>
         </div>
       </div>
+      </div>
     </footer>
+    // bg-[url('/assets/images/auth1.png')]
   );
 };
 

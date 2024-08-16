@@ -4,12 +4,12 @@ import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaGithub, FaMapMarkerAl
 const Footer: React.FC = () => {
   return (
     <footer className="relative bg-gradient-to-r from-[#5f249e] to-[#390942] text-white py-8">
-      <div className="bg-[url('/assets/footerimg.png')] bg-auto bg-no-repeat bg-right" >
+      <div className="bg-[url('/assets/footerimg.png')] bg-auto bg-no-repeat bg-right " >
       <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-start space-y-8 md:space-y-0">
         {/* First Section: Logo and Social Media Icons */}
         <div className="flex flex-col items-start">
-          <img src="/assets/footarlogo.png" alt="Logo" className="w-32 h-auto mb-4" />
-          <div className="flex space-x-4">
+          <img src="/assets/footarlogo.png" alt="Logo" className="w-[236px] h-auto mb-4" />
+          <div className="flex space-x-7 ">
             <a href="https://facebook.com" aria-label="Facebook" className="text-white hover:text-gray-400">
               <FaFacebook size={24} />
             </a>

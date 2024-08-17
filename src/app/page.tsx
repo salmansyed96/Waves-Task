@@ -18,6 +18,7 @@ import Footer from "./sections/Footer";
 import Gallery from "./sections/Gallery";
 import Media from "./sections/media";
 import ContactForm from "./sections/Contact";
+import BoutiqueHotelWebsite from "./sections/test-card";
 // import CardSlider from "@/components/ui/Card Slider Component";
 
 
@@ -32,7 +33,9 @@ export default function page() {
       {/* <CarouselSize/> */}
       <HorizontalScroll/>
       <Activities/>
+      <BoutiqueHotelWebsite/>
       <JoinWAVES/>
+      
       <NewsUpdate/>
       <AccordionDemo/>
       <Gallery/>

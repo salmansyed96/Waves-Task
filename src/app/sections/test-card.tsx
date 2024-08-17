@@ -1,29 +1,14 @@
-// components/Card.tsx
-
-import Card from "@/components/ui/Card";
 import { Star,  Calendar,  } from "lucide-react";
+import React from "react";
+import { render } from "react-dom";
+const BoutiqueHotelWebsite = () => {
+  return <div className="font-serif" data-id="element-0">
+      
 
+      <main className="p-4" data-id="element-10">
+        
 
-
-interface CardProps {
-  image: string;
-  title: string;
-  description: string;
-}
-
-const Activities: React.FC<CardProps> = ({ image, title, description }) => {
-  return (
-    <div className="bg-[#EFE4FB] h-[700px] rounded-t-[60px] border mt-11 p-[150px]">
-     
-    <div className="ml-[255] mt-[-76px]">
-    <h1 className="text-[#5F259E] text-5xl font-extrabold">Major Activities</h1>
-      <p className="text-[#3F4654] text-lg mt-5">WAVES isn't just a conference, it's a portal to the future of M&E. Here, industry leaders, creative minds, and tech visionaries <br/>converge to explore cutting-edge trends, forge powerful connections, and celebrate the magic of storytelling. Get ready to be a part of:</p>
-
-    </div>
-    
-    {/* <Card/> */}
-
-    <section className="grid md:grid-cols-2 lg:grid-cols-3 gap-4" data-id="element-17">
+        <section className="grid md:grid-cols-2 lg:grid-cols-3 gap-4" data-id="element-17">
           <div className="border border-gray-300 p-4 rounded-lg" data-id="element-18">
             <h3 className="text-green-800" data-id="element-19">Cabin in the Woods</h3>
             <img src="https://via.placeholder.com/150" alt="Cabin in the Woods" className="mt-2" data-id="element-20" />
@@ -72,10 +57,11 @@ const Activities: React.FC<CardProps> = ({ image, title, description }) => {
             </div>
           </div>
         </section>
-    </div>
 
-    
-  );
+        
+      </main>
+
+     
+    </div>;
 };
-
-export default Activities;
+export default BoutiqueHotelWebsite;

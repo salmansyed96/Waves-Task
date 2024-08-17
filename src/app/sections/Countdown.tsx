@@ -42,24 +42,30 @@ const CountdownTimer: React.FC<CountdownTimerProps> = ({ targetDate }) => {
   }
 
   return (
-    <div className="relative flex justify-center">
-    <div className="absolute top-[-45px]">
-      <div className="bg-gradient-to-r from-purple-500 to-pink-500  flex text-white rounded gap-12 p-4">
-        <div className="flex flex-col justify-center items-center">
-          <span className="text-4xl">{timeLeft.days}</span>
-          <span className="">Days</span>
+    <div className="  flex items-center justify-center w-full absolute z-10 -bottom-6 md:bottom-[3rem] px-4">
+    <div
+  className="bg-[url('/assets/hero3.png')] bg-cover bg-center bg-no-repeat relative w-full md:max-w-5xl flex justify-center py-4 md:px-6 rounded-md shadow-lg">
+    {/* <img src="/assets/hero3.png" alt="empty" className="" /> */}
+      <div className=" flex text-white rounded gap-12 p-4">
+
+        <div className="mx-5 md:mx-10 flex items-center justify-center flex-col ml-[15%]">
+          <span className="text-center text-white font-extrabold fontJost text-2xl md:text-6xl">{timeLeft.days}</span>
+          <span className="text-center text-white font-extrabold fontJost text-sm md:text-3xl mt-4">Days</span>
         </div>
-        <div className="flex flex-col justify-center items-center">
-          <span className="text-4xl">{timeLeft.hours}</span>
-          <span className="">Hours</span>
+
+        <div className="mx-5 md:mx-10 flex items-center justify-center flex-col">
+          <span className="text-center text-white font-extrabold fontJost text-2xl md:text-6xl">{timeLeft.hours}</span>
+          <span className="text-center text-white font-extrabold fontJost text-sm md:text-3xl mt-4">Hours</span>
         </div>
+
         <div className="flex flex-col justify-center items-center">
-          <span className="text-4xl">{timeLeft.minutes}</span>
-          <span className="">Minutes</span>
+          <span className="text-center text-white font-extrabold fontJost text-2xl md:text-6xl">{timeLeft.minutes}</span>
+          <span className="text-center text-white font-extrabold fontJost text-sm md:text-3xl mt-4">Minutes</span>
         </div>
-        <div className="flex flex-col justify-center items-center">
-          <span className="text-4xl">{timeLeft.seconds}</span>
-          <span className="">Seconds</span>
+
+        <div className="mx-5 md:mx-10 flex items-center justify-center flex-col">
+          <span className="text-center text-white font-extrabold fontJost text-2xl md:text-6xl">{timeLeft.seconds}</span>
+          <span className="text-center text-white font-extrabold fontJost text-sm md:text-3xl mt-4">Seconds</span>
         </div>
       </div>
     </div>

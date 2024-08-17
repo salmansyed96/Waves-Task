@@ -13,7 +13,7 @@ import Activities from "./sections/Activities";
 import JoinWAVES from "./sections/JoinWAVES";
 import NewsUpdate from "./sections/News&Updates";
 import { Accordion } from "@radix-ui/react-accordion";
-import StaticAccordion, { AccordionDemo } from "./sections/accordion";
+import { AccordionDemo } from "./sections/accordion";
 import Footer from "./sections/Footer";
 import Gallery from "./sections/Gallery";
 import Media from "./sections/media";
@@ -33,7 +33,7 @@ export default function page() {
       {/* <CarouselSize/> */}
       <HorizontalScroll/>
       <Activities/>
-      <BoutiqueHotelWebsite/>
+      
       <JoinWAVES/>
       
       <NewsUpdate/>

@@ -42,7 +42,7 @@ const CountdownTimer: React.FC<CountdownTimerProps> = ({ targetDate }) => {
   }
 
   return (
-    <div className="  flex items-center justify-center w-full absolute z-10 -bottom-6 md:bottom-[3rem] px-4">
+    <div className="  relative flex items-center justify-center w-full absolute z-10 -bottom-6 md:bottom-[3rem] px-4">
     <div
   className="bg-[url('/assets/hero3.png')] bg-cover bg-center bg-no-repeat relative w-full md:max-w-5xl flex justify-center py-4 md:px-6 rounded-md shadow-lg">
     {/* <img src="/assets/hero3.png" alt="empty" className="" /> */}

@@ -6,6 +6,7 @@ export const Hero = () => {
 
   return (
     <section className="relative w-full h-[1312px] ">
+      <img src="/assets/Desing.png" alt="empty" className="absolute right-[1px] top-[980px] z-[50]" />
       <img className='w-10000' src="/assets/Heroimg.png" alt="emty" />
       <img className='bg-pink' src="/assets/Heroimgtext.png" alt="emty" />
       <Header />
@@ -14,7 +15,7 @@ export const Hero = () => {
           <br />
           <span>Goa, India</span>
         </h1>
-        <Image src="/assets/scroll.png" alt="empty" width={200} height={200}/>
+        <Image  className='animate-bounce transition-all duration-1000' src="/assets/scroll.png" alt="empty" width={200} height={200}/>
       </div>
 
     </section>

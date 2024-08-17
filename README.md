@@ -1,11 +1,11 @@
-# Next.js + TypeScript + Shadcn UI Admin Dashboard
-A modern admin dashboard template using Next.js 14 with App Routing, TypeScript, and Shadcn UI.
+# Next.js + TypeScript + Shadcn UI  Dashboard
+A modern  dashboard template using Next.js 14 with App Routing, TypeScript, and Shadcn UI.
 
-<img src="./media/dashboard-lg.png" alt="Dashboard Screenshot" width="100%">
+
 
 ## Project Context
 
-This admin dashboard template is being built for a SaaS platform, providing flexibility and customization for specific use case.
+This  dashboard template is being built for a SaaS platform, providing flexibility and customization for specific use case.
 
 Feel free to contribute to this project by submitting issues or pull requests.
 
@@ -31,7 +31,7 @@ Feel free to contribute to this project by submitting issues or pull requests.
 
 To set up and run this admin dashboard locally, follow these steps:
 
-1. ```git clone https://github.com/arhamkhnz/next-shadcn-admin-dashboard.git```
+1. ```git clone https://github.com/salmansyed96/Waves-Task```
 2. ```npm install```
 3. ```npm run dev```
 

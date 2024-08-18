@@ -42,7 +42,7 @@ const CardSection = () => {
               <h3 className="text-xl font-bold mb-2">{card.title}</h3>
               <p className="text-gray-700">{card.description}</p>
               <div className="mt-4 flex justify-end">
-                <span className="text-purple-600 font-bold text-xl border border-purple-600 rounded-[200%] p-2">→</span>
+                <span className="text-purple-600 font-bold text-xl border cursor-pointer border-purple-600 rounded-[200%] p-2">→</span>
 
 
               </div>

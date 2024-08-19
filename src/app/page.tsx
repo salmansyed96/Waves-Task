@@ -1,5 +1,4 @@
 import { Hero } from "@/app/sections/Hero";
-import { Button } from "@/components/ui/button";
 import CountdownTimer from "./sections/Countdown";
 import { About } from "./sections/ABout_Waves";
 import { Verticals } from "./sections/Verticals";
@@ -13,7 +12,7 @@ import Footer from "./sections/Footer";
 import Gallery from "./sections/Gallery";
 import Media from "./sections/media";
 import ContactForm from "./sections/Contact";
-// import CardSlider from "@/components/ui/Card Slider Component";
+
 
 
 export default function page() {

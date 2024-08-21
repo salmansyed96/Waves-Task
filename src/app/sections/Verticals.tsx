@@ -1,7 +1,7 @@
 export const Verticals = () => {
     return (
-      <div className="mt-[12.5rem]">
-      <section className="flex mt-[7%] items-center justify-center">
+      <div className="mt-[12.5rem] ">
+      <section className="flex mt-[7%] items-center justify-center ml-32">
         <div className="text-center">
           <img src="/assets/Rect.png" alt="empty" className="mb-4" />
           <h1 className="text-4xl font-bold mb-2 relative bottom-[64px] right-[51px]">WAVES Verticals</h1>

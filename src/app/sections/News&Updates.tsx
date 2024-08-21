@@ -24,7 +24,7 @@ function NewsUpdate() {
                         <p className="text-gray-600">
                             The stage is set, and the Indian Media and Entertainment (M&E) sector is poised to captivate the world.
                         </p>
-                        <a href="#" className="mt-4 inline-block text-[#5F259E] hover:text-blue-700 font-semibold">
+                        <a href="#" className="mt-4 inline-block text-[#5F259E] hover:text-blue-700 font-semibold ">
                             Read More
                         </a>
                     </div>

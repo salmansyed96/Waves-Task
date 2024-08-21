@@ -23,7 +23,6 @@ export default function page() {
       <About />
       <Verticals />
       <Cards />
-      {/* <CarouselSize/> */}
       <HorizontalScroll />
       <Activities />
       <JoinWAVES />

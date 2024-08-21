@@ -1,6 +1,6 @@
 export const Verticals = () => {
     return (
-      <div className="mt-[12.5rem] ">
+      <div className="mt-[12.5rem] ml-32 ">
       <section className="flex mt-[7%] items-center justify-center ml-32">
         <div className="text-center">
           <img src="/assets/Rect.png" alt="empty" className="mb-4" />

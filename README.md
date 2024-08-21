@@ -9,23 +9,18 @@ This  dashboard template is being built for a SaaS platform, providing flexibili
 
 Feel free to contribute to this project by submitting issues or pull requests.
 
-## Features & Overview
+
 
 **Features:**
-- [x] Zod for Schema Validation
-- [x] React Query for Data Fetching
+
+- [x] shadcn/ui
 - [x] ESLint for Code Quality
 - [x] Prettier for Code Formatting
 - [x] Tailwind CSS for Styling
 - [x] React Hook Form for Forms
 - [x] Custom Script to Get All Available Routes and Save in a File
-- [ ] Auth.js for Authentication
-- [ ] Tanstack Tables for Data Display
 
-**Overview:**
-- [x] Responsive Design
-- [x] Role-Based Access Control (RBAC) with Configurable UI for Each User
-- [x] Multi-Tenant Support
+
 
 ## Getting Started
 
